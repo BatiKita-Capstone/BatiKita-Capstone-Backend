@@ -33,8 +33,28 @@ async def recognize_image(image: UploadFile = File(...)):
 
     try:
         response = requests.post(url, files=files)
-        result = (response.json())
-        batik = search_by_name(result['result'])
+        response.raise_for_status()
+        return response.json()
+    except requests.exceptions.RequestException as e:
+        return {"error": str(e)}
+
+    # try:
+    #     response = requests.post(url, files=files)
+    #     result = (response.json())
+    #     batik = search_by_name(result['result'])
+    #     if batik is None:
+    #         raise HTTPException(status_code=404, detail="Batik not found")
+    #     return {
+    #         "data": batik
+    #     }
+    # except requests.exceptions.RequestException as e:
+    #     return {"error": str(e)}
+
+
+@app.get("/getDetail")
+async def getDetail(name: str):
+    batik = search_by_name(name)
+    try:
         if batik is None:
             raise HTTPException(status_code=404, detail="Batik not found")
         return {
