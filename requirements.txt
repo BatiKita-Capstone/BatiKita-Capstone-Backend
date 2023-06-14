@@ -90,7 +90,6 @@ python-dateutil==2.8.2
 python-dotenv==0.21.1
 python-json-logger==2.0.4
 python-multipart==0.0.6
-pywinpty==2.0.10
 PyYAML==6.0
 pyzmq==24.0.0
 qtconsole==5.4.0
