@@ -1,6 +1,7 @@
 from typing import Union
-
-from fastapi import FastAPI
+from data_batik import data as data_batik
+from fastapi import FastAPI, UploadFile, File, HTTPException
+import requests
 
 app = FastAPI()
 
@@ -13,3 +14,31 @@ def read_root():
 @app.get("/items/{item_id}")
 def read_item(item_id: int, q: Union[str, None] = None):
     return {"item_id": item_id, "q": q}
+
+
+app = FastAPI()
+
+
+def search_by_name(name):
+    for item in data_batik:
+        if item['name'] == name:
+            return item
+    return None
+
+
+@app.post("/recognize")
+async def recognize_image(image: UploadFile = File(...)):
+    url = 'https://batikita-ml-it35sd3wyq-et.a.run.app/recognize'
+    files = {'image': (image.filename, image.file, image.content_type)}
+
+    try:
+        response = requests.post(url, files=files)
+        result = (response.json())
+        batik = search_by_name(result['result'])
+        if batik is None:
+            raise HTTPException(status_code=404, detail="Batik not found")
+        return {
+            "data": batik
+        }
+    except requests.exceptions.RequestException as e:
+        return {"error": str(e)}
