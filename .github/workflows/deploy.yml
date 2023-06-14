@@ -12,7 +12,7 @@ env:
   SERVICE_NAME: batikita-backend
   REGION: asia-southeast2
 
-jobs:xx
+jobs:
   build-and-push:
     runs-on: ubuntu-latest
     steps:
