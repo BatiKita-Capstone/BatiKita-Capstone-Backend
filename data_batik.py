@@ -75,7 +75,7 @@ data = [
         "similar10": "https://www.goodnewsfromindonesia.id/uploads/images/2022/12/1315582022-buntal.jpg"
     },
     {
-        "name": "Batik Mega Mendung",
+        "name": "Batik Megamendung",
         "thumbnail": "https://asset.kompas.com/crops/-OPCUQaZH7BxvVDMleFslU9Qozg=/0x0:0x0/750x500/data/photo/2021/03/26/605d16d593572.png",
         "description": "Batik Mega Mendung merupakan motif batik khas Cirebon yang menggabungkan elemen Islam dan budaya Tionghoa. Motif ini menggambarkan gumpalan awan yang sering ditemukan dalam seni Tiongkok seperti piring, kain, keramik, dan lukisan, namun dengan gaya yang unik dan berbeda. Nama 'Mega Mendung' berasal dari kata 'Mega' yang berarti langit atau awan, dan 'Mendung' yang menggambarkan langit yang gelap atau meredup saat hujan akan turun. Motif utamanya adalah awan, dengan gradasi warna yang melambangkan keindahan tujuh lapis langit. Batik Mega Mendung juga mencerminkan pengaruh budaya Tionghoa di Cirebon, karena banyak orang Tionghoa yang datang melalui pelabuhan Muara Jati dan membawa hiasan-hiasan seperti kain, keramik, dan piring dengan motif awan. Akulturasi budaya antara masyarakat Cirebon dan Tionghoa semakin terjalin melalui pernikahan Sunan Gunung Jati dengan Putri Ong Tien, keturunan Tionghoa. Motif Mega Mendung memiliki 5 hingga 7 lapis warna, dengan lima lapis warna yang melambangkan rukun Islam dan tujuh lapisan langit yang dilalui Nabi Muhammad dalam perjalanan isra' mi'raj. Warna dasar dari batik ini adalah merah dan biru, dengan tambahan tujuh warna lainnya seperti ungu, oranye, coklat, putih, hitam, hijau, dan kuning.",
         "similar1": "https://cdn.shopify.com/s/files/1/1090/9158/articles/megamendung_grande.jpg",
