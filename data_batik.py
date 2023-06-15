@@ -45,7 +45,7 @@ data = [
         "similar10": "https://belajarjait.com/wp-content/uploads/2020/12/batik-celup.jpg"
     },
     {
-        "name": "Batik Corak Insang",
+        "name": "Batik Insang",
         "thumbnail": "https://s1.bukalapak.com/img/6680992913/large/Bahan_tenun_corak_insang_pontianak_scaled.jpg",
         "description": "Batik corak insang merupakan seni tenun tradisional yang berasal dari masyarakat Pontianak, terutama masyarakat Melayu, yang telah dikenal sejak masa lampau di Kalimantan Barat. Pada awalnya, batik corak insang digunakan secara pribadi oleh keluarga, karena setiap keluarga yang mampu pada waktu itu berusaha menciptakan dan memiliki satu jenis batik corak insang yang menjadi kebanggaan mereka. Hal ini mengakibatkan munculnya berbagai jenis corak insang, karena setiap keluarga membuat, mencelup, dan menenun sendiri sesuai dengan keinginan mereka. Dalam sejarah perkembangannya, batik corak insang menggambarkan kehidupan masyarakat Pontianak yang secara dominan berhubungan dengan Sungai Kapuas, tempat mereka tinggal. Batik corak insang mencerminkan profesi nelayan yang merupakan mata pencaharian utama masyarakat Pontianak di tepian Sungai Kapuas. Kehidupan mereka sebagai nelayan mempengaruhi seni mereka, dengan ikan menjadi media ungkapan yang diwujudkan melalui motif dan corak dalam kain tenun. Corak insang tidak menggambarkan ikan secara keseluruhan, melainkan fokus pada bagian tubuh ikan yang paling penting, yaitu insang. Penghargaan terhadap insang tersebut menjadi kesepakatan masyarakat Melayu Pontianak untuk mengidentifikasi hasil tenun mereka dengan sebutan 'Kain Tenun Corak Insang'.",
         "similar1": "https://images.tokopedia.net/img/cache/700/VqbcmM/2020/5/30/46a3ef2d-d15b-4d1f-950d-035b73bfbf4d.jpg",
